@@ -5,24 +5,24 @@ This project
 ![Image](image.jpg)
 
 ```
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage{fancyhdr} % Required for custom headers
-
-\begin{document}
-
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics{BubtLogoByKaniz.png}
+    \includegraphics[width=0.5\textwidth]{your-image.png}
+    \caption{Screenshot of the terminal}
+    \label{fig:kaniz1}
 \end{figure}
 
-\end{document}
-
 ```
 
-### Custom Image Alignment
+### Custom Alignment
+
+**Center Alignment**
 
 ```
+\begin{center}
+.
+.
+\end{center} % ← Ends centering here
 
 ```
 
