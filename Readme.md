@@ -2,7 +2,6 @@
 # Election System
 This project
 ## Add Image
-![Image](image.jpg)
 
 ```
 \begin{figure}[h]
@@ -12,6 +11,12 @@ This project
     \label{fig:kaniz1}
 \end{figure}
 
+```
+
+```
+\begin{center}
+    \includegraphics[width=1\textwidth]{2.0.5.png}
+\end{center}
 ```
 
 ### Custom Alignment
