@@ -84,11 +84,6 @@ Fatema & 30 & New York \\
 \end{tabular}
 
 ```
-or
-```latex
-This is the first line. \newline
-This is the second line.
-```
 
 ## Add Image
 With Caption and Label
@@ -162,4 +157,41 @@ Use `$ ... $` to write math inside a paragraph.
 The equation $E = mc^2$ is famous.
 ```
 
+## Add line
+**Basic Line**
+```latex
+\noindent\rule{\linewidth}{0.4pt}
+```
+**Alternative (Custom Width)**
+```latex
+\noindent\rule{0.8\linewidth}{1pt}  % 80% width and 1pt thickness
+```
+## Add Hyperlink
+**Add Link in text with custom color**
 
+```latex
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+```
+
+```latex
+\href{https://kaniz111.com}{\textcolor{blue}{Kaniz Fatema}}
+```
+***Define a custom color***
+```latex
+% Define a custom color
+\definecolor{customblue}{HTML}{1A73E8}  % Replace with any hex code
+
+\begin{document}
+
+Visit \href{https://kaniz111.com}{\textcolor{customblue}{Kaniz Fatema}} for more information.
+
+\end{document}
+```
+
+## Resources
+
+- [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+- [Youtube playlist](https://www.youtube.com/playlist?list=PLaxOs-8sLebvrPbJ62bZknwI89cwe1L4a)
+- [LaTeX Templates](https://www.latextemplates.com/)
