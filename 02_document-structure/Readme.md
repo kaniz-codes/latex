@@ -23,6 +23,6 @@ check out file article.txt for formate.
 [image]
 
 > [!NOTE]
-> No chapters in article.
-> Uses \section, \subsection, \subsubsection.
+> - No chapters in article.
+> - Uses \section, \subsection, \subsubsection.
 
