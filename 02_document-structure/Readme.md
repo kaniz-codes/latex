@@ -1,4 +1,4 @@
-## 02: Document Structure in LaTeX
+## Document Structure in LaTeX
 
 ### What I learned:
 - The basic skeleton of a LaTeX document uses `\documentclass{}` (e.g., `article`, `report`, `book`) to define the type.
@@ -15,7 +15,7 @@
 - `\section{...}`, `\subsection{...}`, `\subsubsection{...}`
 - `%` for comments
 
-### 1. article Class
+## 1. article Class
 Used for short documents: papers, articles, assignments, etc.
 
 check out file article.txt for formate.
@@ -26,4 +26,3 @@ check out file article.txt for formate.
 > No chapters in article.
 > Uses \section, \subsection, \subsubsection.
 
-### 2. report Class
