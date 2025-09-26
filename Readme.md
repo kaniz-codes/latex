@@ -1,4 +1,5 @@
 <img src="icon.png" align="right" height="110"/>
+
 # LaTeX: The Best Document Preparation System
 
 In this repository, I will be exploring **LaTeX**, a powerful typesetting system widely used for creating professional and structured documents, especially in academic and scientific writing.
