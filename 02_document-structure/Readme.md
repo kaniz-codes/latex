@@ -1,4 +1,4 @@
-## Document Structure in LaTeX
+# Document Structure in LaTeX
  This contains the basic structure of a LaTeX document and explains the commonly used document classes like `article`, `report` and `book`.
 ### What I Learned
 - Start with `\documentclass{}` to define the type of document.
@@ -20,9 +20,9 @@
 \end{document}              % End document
 ```
 
-### article Class
+## article Class
 
-Used for short documents such as papers, articles, or assignments.
+Used for short documents such as **papers**, **articles**, or **assignments**.
 
 > [!NOTE] 
 > - The `article` class does **not** support chapters, only sections.  
@@ -30,8 +30,8 @@ Used for short documents such as papers, articles, or assignments.
 
 Check out  [`article.txt`](02_document-structure\article.tex) for the format.
 
-### report Class
- Designed for longer documents with multiple chapters such as technical reports, theses.
+## report Class
+ Designed for longer documents with multiple chapters such as technical **reports**, **theses**.
 
 > [!NOTE] 
 > - Includes chapters `\chapter{}` in addition to sections. 
@@ -39,7 +39,7 @@ Check out  [`article.txt`](02_document-structure\article.tex) for the format.
 
 Check out  [`report.txt`](02_document-structure\report.tex) for the format.
 
-### book Class
+## book Class
 
 Used for writing full length books.
 
