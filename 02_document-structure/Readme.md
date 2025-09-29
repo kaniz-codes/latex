@@ -1,34 +1,56 @@
 ## Document Structure in LaTeX
-
+ This contains the basic structure of a LaTeX document and explains the commonly used document classes like `article`, `report` and `book`.
 ### What I Learned
-- The basic structure of a LaTeX document starts with `\documentclass{}`, e.g., `article`, `report`, or `book`.
-- The main content goes between `\begin{document}` and `\end{document}`.
-- Sections are organized using `\section{}`, `\subsection{}`, and `\subsubsection{}`.
-- Comments are added with `%`.
+- Start with `\documentclass{}` to define the type of document.
+- Content goes between `\begin{document}` and `\end{document}`.
+- Structure your document using: `\section{}`, `\subsection{}`, `\subsubsection{}`
+- Comments in LaTeX begains with `%`
 
-### Commands Practiced
+### Document Structure
 
 ```latex
-\documentclass{article}     % Define document type
-\title{My LaTeX Document}   % Document title
-\author{Your Name}          % Author name
-\date{\today}               % Date (today's date)
+\documentclass{article}     % Document class
+\title{My LaTeX Document}   % Title
+\author{Your Name}          % Author
+\date{\today}               % Date (Today's date)
 \begin{document}            % Start of content
-\maketitle                 % Generate title section
+\maketitle                  % Render title
 \section{Introduction}      % Section heading
-% This is a comment in LaTeX
-\end{document}              % End of document
+% This is a comment
+\end{document}              % End document
 ```
----
 
-### 1. `article` Class
+### article Class
 
 Used for short documents such as papers, articles, or assignments.
 
-> **Note:**  
-> - The `article` class does **not** support chapters.  
-> - Use `\section`, `\subsection`, and `\subsubsection` for structuring.
+> [!NOTE] 
+> - The `article` class does **not** support chapters, only sections.  
+> - Supports: `\section`, `\subsection`, and `\subsubsection` for structuring.
 
-You can check out the example file [`article.txt`](path/to/article.txt) for the format.
+Check out  [`article.txt`](02_document-structure\article.tex) for the format.
 
-![Example image](path/to/image.png)
+### report Class
+ Designed for longer documents with multiple chapters such as technical reports, theses.
+
+> [!NOTE] 
+> - Includes chapters `\chapter{}` in addition to sections. 
+> - Autometically starts chapters on a new page.
+
+Check out  [`report.txt`](02_document-structure\report.tex) for the format.
+
+### book Class
+
+Used for writing full length books.
+
+> [!NOTE] 
+> - Includes front matter, chapters and back matter.
+> - Supports double sided printing.
+
+Check out  [`book.txt`](02_document-structure\book.tex) for the format.
+
+## Resources
+
+Here are some useful links I found while learning:
+
+- [What are the available "documentclass" types and their uses?](https://tex.stackexchange.com/questions/782/what-are-the-available-documentclass-types-and-their-uses) 
