@@ -19,7 +19,7 @@ Using LaTeX through Overleaf is straightforward:
 
 > Overleaf automatically compiles your `.tex` file into a PDF as you write—no need to install anything on your local system.
 
-## Resources
+## 📎Resources
 
 Here are some useful links to help you learn and master LaTeX:
 
