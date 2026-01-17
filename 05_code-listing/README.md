@@ -12,6 +12,7 @@ and all \LaTeX{} commands are ignored.
 \end{verbatim}
 ```
 The code above produces the following output:
+
 ![Use of verbatim](images/Verbatim1.png)
 
 
@@ -118,6 +119,7 @@ public class HelloWorld {
 ```
 
 The code above produces the following output:
+
 ![Listing with hightlight](images/super-fancy-code.png)
 
 
