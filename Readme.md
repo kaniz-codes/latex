@@ -6,7 +6,8 @@ In this repository, I will be exploring **LaTeX**, a powerful typesetting system
 
 To make things easy, I will use **Overleaf**, an online LaTeX editor that runs entirely in the browser—no installation required.
 
----
+
+
 
 ## Getting Started with Overleaf
 
@@ -31,3 +32,5 @@ Here are some useful links to help you learn and master LaTeX:
 ---
 
 Feel free to contribute or suggestions in the Issues or Pull Requests!
+
+**Updated:** 08-04-2026
