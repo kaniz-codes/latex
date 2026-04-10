@@ -33,4 +33,4 @@ Here are some useful links to help you learn and master LaTeX:
 
 Feel free to contribute or suggestions in the Issues or Pull Requests!
 
-**Updated:** 08-04-2026
+**Updated:** 10-04-2026

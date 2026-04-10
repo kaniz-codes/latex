@@ -167,6 +167,49 @@ Name: Hello Kaniz!
 \end{minted}
 ```
 
+## I'm currently using
+
+```latex
+% Write Packages
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tcolorbox} % For creating colorful boxes
+\usepackage{xcolor} % To customize colors
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{amsmath}
+\usepackage[utf8x]{inputenc}
+\usepackage{geometry}
+\usepackage[newfloat]{minted}
+\usepackage{float}
+\usemintedstyle{friendly}
+\usepackage{listings} % For adding code
+\usepackage{caption}
+\usepackage{needspace}
+\setminted{
+  linenos,
+  frame=lines,
+  breaklines,
+  fontsize=\small,
+  numbersep=6pt,
+  framesep=2mm,
+  tabsize=2
+}
+\geometry{margin=0.8 in}
+
+% For codes
+\subsubsection{Solution}
+\Needspace{12\baselineskip}
+\inputminted{java}{task3.java}
+\captionof{listing}{E-commerce Payment System}
+
+\Needspace{10\baselineskip}
+\section*{Output}
+\begin{minted}{text}
+Pay Credit Card.
+Pay Paypal.
+\end{minted}
+```
+
 
 ## 📎Resources
 To learn more
